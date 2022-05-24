@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -x 3 iacta
+grep -o 3 iacta

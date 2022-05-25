@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -u ./13-unique | grep
+sort ./13-unique | grep | uniq

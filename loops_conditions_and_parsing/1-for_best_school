@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 # Write a Bash script that displays Best School 10 times
-i="Best School"
-for i in {1..10}; do echo "Best School"; done
+for {1..10}; do echo "Best School"; done

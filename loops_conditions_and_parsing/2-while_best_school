@@ -3,6 +3,6 @@
 int i = 0;
 while (i < 10)
 {
-	printf ("Best School\n");
+	printf ("Best School");
 	i = i + 1;
 }

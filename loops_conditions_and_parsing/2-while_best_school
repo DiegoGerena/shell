@@ -2,6 +2,6 @@
 # Write a Bash script that displays Best School 10 times, while loop
 int i = 0;
 while (i < 10)
-	printf ("Best School");
-	i = i + 1;
+do	printf ("Best School");
+	i = i + 1; done
 

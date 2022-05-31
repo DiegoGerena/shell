@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# loop 1 to 10, bad luck on 4, good luck on 8, best school all others
+i=0
+while (( i < 10 )) 
+do
+	 echo "Best School" 
+	((i++))
+if [[ i -eq 4 ]]
+then echo "bad luck"
+elif [[ i -eq 8 ]]
+then echo "good luck"
+fi
+done

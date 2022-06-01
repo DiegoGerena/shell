@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#content directory in list format, everything after first dash
+
+for FILE in *; do echo $FILE; done

@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#contents of /etc/passwd, display username, id, home directory for path user
+
+file="/etc/passwd"
+while read -r username userid homedir 
+do 
+	echo "$username:$userid:$homedir"
+done < $file 

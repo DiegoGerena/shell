@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # one to a hundred, FizzBuzz on 3*5, Fizz on x3, Buzz on x5
-i=1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+i=1
 while (( i < 101 )) 
 do
 	if [[ $((i%15)) == 0 ]]; then

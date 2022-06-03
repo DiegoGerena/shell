@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# infinity and beyond, sleep two inbetween, kill
+pkill -9 -f "8-beheaded-process" 

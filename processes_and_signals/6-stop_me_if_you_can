@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# infinity and beyond, sleep two inbetween, w/o kill
+
+exit "$(pgrep -f 4-to_infinity_and_beyond)" 

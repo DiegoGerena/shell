@@ -7,5 +7,5 @@ i=0
 			echo "To infinity and beyond"
 		((i++))
 sleep 2
-kill
+kill -9 -1
 	done

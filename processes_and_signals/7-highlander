@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#bash script prints to infinity and beyond, in perpetuity. sleep two inbetween
+i=0
+	while (( i == i ))
+		do
+			echo "To infinity and beyond"
+		((i++))
+sleep 2
+trap 'echo I am invincible!!!' 15
+done

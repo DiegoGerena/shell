@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# infinity and beyond, sleep two inbetween, w/o kill
+pkill -15 -f "4-to_infinity_and_beyond" 

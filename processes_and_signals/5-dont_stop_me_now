@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # infinity and beyond, sleep two inbetween, kill
 
-i=0
-	while (( i == i ))
-		do
-			echo "To infinity and beyond"
-		((i++))
-sleep 2
-kill -9 -1
-	done
+#i=0
+#	while (( i == i ))
+#		do
+#			echo "To infinity and beyond"
+#		((i++))
+#sleep 2
+kill -f 4-to_infinity_and_beyond 
+#	done
